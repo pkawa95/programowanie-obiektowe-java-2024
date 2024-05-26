@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a360475a-5bfc-4fff-974a-62718551af9f" name="Changes" comment="Dodanie projektu grupowego">
-      <change beforePath="$PROJECT_DIR$/Projekt Grupowy/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projekt Grupowy/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projekt Grupowy v2/Projekt Grupowy v2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projekt Grupowy v2/src/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projekt Grupowy v2/src/Karta_Graficzna.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projekt Grupowy v2/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projekt Grupowy v2/src/Obudowa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projekt Grupowy v2/src/Plyta_Glowna.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projekt Grupowy v2/src/Procesor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projekt Grupowy v2/src/Zasilacz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,22 +31,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "pkawa95"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;pkawa95&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:pkawa95/programowanie-obiektowe-java-2024.git",
-    "accountId": "77f0675b-9050-45fe-8233-a57faf6e5ad7"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:pkawa95/programowanie-obiektowe-java-2024.git&quot;,
+    &quot;accountId&quot;: &quot;77f0675b-9050-45fe-8233-a57faf6e5ad7&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 1
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2g9Q2qJqHqr8hiHVUkphOCKOm6I" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -59,7 +68,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/Kawjo/IdeaProjects/programowanie-obiektowe-java-2024/Projekt Grupowy/src/Main.java",
+    "onboarding.tips.debug.path": "C:/Users/Kawjo/IdeaProjects/programowanie-obiektowe-java-2024/Projekt Grupowy v2/src/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -79,7 +88,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715107109744</updated>
-      <workItem from="1715107110436" duration="1489000" />
+      <workItem from="1715107110436" duration="1780000" />
+      <workItem from="1716674295605" duration="20000" />
+      <workItem from="1716733268441" duration="1721000" />
     </task>
     <task id="LOCAL-00001" summary="dodanie pliku">
       <option name="closed" value="true" />
@@ -129,7 +140,47 @@
       <option name="project" value="LOCAL" />
       <updated>1715108292407</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Dodanie projektu grupowego">
+      <option name="closed" value="true" />
+      <created>1715108706918</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1715108706918</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Dodanie projektu grupowego">
+      <option name="closed" value="true" />
+      <created>1715108770900</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715108770900</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Dodanie projektu grupowego">
+      <option name="closed" value="true" />
+      <created>1715108777266</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715108777266</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Dodanie projektu grupowego">
+      <option name="closed" value="true" />
+      <created>1715108827293</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1715108827293</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Dodanie projektu grupowego">
+      <option name="closed" value="true" />
+      <created>1715108874685</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1715108874685</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
