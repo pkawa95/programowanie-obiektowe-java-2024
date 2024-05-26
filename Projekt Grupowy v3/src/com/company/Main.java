@@ -1,4 +1,4 @@
-//package com.company;
+package com.company;
 
 import java.io.IOException;
 import java.util.Scanner;
@@ -10,6 +10,7 @@ public class Main {
             System.out.println();
         }
     }
+
     public static void main(String[] args) throws IOException {
         System.out.println("--------- Witamy w kreatorze zestawu Komputerowego --------");
         System.out.println();
@@ -17,8 +18,10 @@ public class Main {
         int Cena = 0;
         final int dostawa = 50;
 
+        Scanner input = new Scanner(System.in);
+
         do {
-            System.out.println("Który z podzespołów chcesz wybrać ?");
+            System.out.println("Który z podzespołów chcesz wybrać?");
             System.out.println("1. Obudowa");
             System.out.println("2. Płyta Główna");
             System.out.println("3. Zasilacz");
@@ -26,7 +29,6 @@ public class Main {
             System.out.println("5. Karta Graficzna");
             System.out.println("6. Zakończ");
 
-            Scanner input = new Scanner(System.in);
             String wybor = input.nextLine();
 
             switch (wybor) {
@@ -35,19 +37,19 @@ public class Main {
                     Cena += Obudowa.wybierzObudowe();
                     break;
                 case "2":
-                    Main.wyczysc_konsole();
+                    wyczysc_konsole();
                     Cena += Plyta_Glowna.wybierzPlytaGlowna();
                     break;
                 case "3":
-                    Main.wyczysc_konsole();
+                    wyczysc_konsole();
                     Cena += Zasilacz.wybierzZasilacz();
                     break;
                 case "4":
-                    Main.wyczysc_konsole();
+                    wyczysc_konsole();
                     Cena += Procesor.wybierzProcesor();
                     break;
                 case "5":
-                    Main.wyczysc_konsole();
+                    wyczysc_konsole();
                     Cena += Karta_Graficzna.wybierzKarteGraficzna();
                     break;
                 case "6":

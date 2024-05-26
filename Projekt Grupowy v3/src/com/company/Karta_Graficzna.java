@@ -1,4 +1,3 @@
-
 package com.company;
 
 import java.util.Scanner;
@@ -16,9 +15,9 @@ public class Karta_Graficzna extends PodzespolyKomputerowe {
     }
 
     public static int wybierzKarteGraficzna() {
-        System.out.println("Wybierz Karte Graficzną:");
-        System.out.println("1. PALIT, GeForce RTX 4070, 1649, PCI Express 4.0 x16, Aktywne, 12288");
-        System.out.println("2. INNO3D, GeForce RTX 4060, 1799, PCI Express 4.0 x8,Aktywne, 8192");
+        System.out.println("Wybierz Kartę Graficzną:");
+        System.out.println("1. PALIT, GeForce RTX 4070, 1649 zł, PCI Express 4.0 x16, Aktywne, 12288 MB");
+        System.out.println("2. INNO3D, GeForce RTX 4060, 1799 zł, PCI Express 4.0 x8, Aktywne, 8192 MB");
 
         Scanner scanner = new Scanner(System.in);
         int wybor = scanner.nextInt();
@@ -29,33 +28,34 @@ public class Karta_Graficzna extends PodzespolyKomputerowe {
                 cena = 1649;
                 Karta_Graficzna Karta_GraficznaA = new Karta_Graficzna("PALIT", "GeForce RTX 4070", 1649, "PCI Express 4.0 x16", "Aktywne", 12288);
                 Main.wyczysc_konsole();
-                System.out.println("Wybrano Zasilacz : " + Karta_GraficznaA.getProducent() + ", " +
-                        Karta_GraficznaA.getNazwa() + ", " + Karta_GraficznaA.getKoszt() + " zł, " +
-                        Karta_GraficznaA.getTypZasilania()+ ", " + Karta_GraficznaA.getTypChlodzenia() + ", " + Karta_GraficznaA.getRAM());
+                System.out.println("Wybrano Kartę Graficzną: " + Karta_GraficznaA);
                 break;
             case 2:
                 cena = 1799;
-                Karta_Graficzna Karta_GraficznaB = new Karta_Graficzna("INNO3D", "GeForce RTX 4060", 1799, "PCI Express 4.0 x8","Aktywne",  8192);
+                Karta_Graficzna Karta_GraficznaB = new Karta_Graficzna("INNO3D", "GeForce RTX 4060", 1799, "PCI Express 4.0 x8", "Aktywne", 8192);
                 Main.wyczysc_konsole();
-                System.out.println("Wybrano Zasilacz : " + Karta_GraficznaB.getProducent() + ", " +
-                        Karta_GraficznaB.getNazwa() + ", " + Karta_GraficznaB.getKoszt() + " zł, " +
-                        Karta_GraficznaB.getTypZasilania()+ ", " + Karta_GraficznaB.getTypChlodzenia() + ", " + Karta_GraficznaB.getRAM());
+                System.out.println("Wybrano Kartę Graficzną: " + Karta_GraficznaB);
                 break;
-
             default:
                 System.out.println("Niepoprawny wybór Karty Graficznej.");
         }
         return cena;
     }
 
+    @Override
+    public String toString() {
+        return getProducent() + ", " + getNazwa() + ", " + getKoszt() + " zł, " + TypZasilania + ", " + TypChlodzenia + ", " + RAM + " MB";
+    }
+
     public String getTypZasilania() {
         return TypZasilania;
     }
+
     public String getTypChlodzenia() {
         return TypChlodzenia;
     }
+
     public int getRAM() {
         return RAM;
     }
-
 }

@@ -1,6 +1,6 @@
 package com.company;
 
-public class PodzespolyKomputerowe {
+public abstract class PodzespolyKomputerowe implements PodzespolyKomputeroweInterface {
     private String producent;
     private String nazwa;
     private int koszt;
@@ -22,5 +22,4 @@ public class PodzespolyKomputerowe {
     public int getKoszt() {
         return koszt;
     }
-
 }
