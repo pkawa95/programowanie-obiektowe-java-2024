@@ -1,3 +1,5 @@
+
+
 package com.company;
 
 import java.io.IOException;
@@ -27,7 +29,8 @@ public class Main {
             System.out.println("3. Zasilacz");
             System.out.println("4. Procesor");
             System.out.println("5. Karta Graficzna");
-            System.out.println("6. Zakończ");
+            System.out.println("6. Autorzy");
+            System.out.println("7. Zakończenie");
 
             String wybor = input.nextLine();
 
@@ -35,24 +38,41 @@ public class Main {
                 case "1":
                     wyczysc_konsole();
                     Cena += Obudowa.wybierzObudowe();
+                    System.out.println("Wciśnij dowolny klawisz by kontynuować...");
+                    System.in.read();
                     break;
                 case "2":
                     wyczysc_konsole();
                     Cena += Plyta_Glowna.wybierzPlytaGlowna();
+                    System.out.println("Wciśnij dowolny klawisz by kontynuować...");
+                    System.in.read();
                     break;
                 case "3":
                     wyczysc_konsole();
                     Cena += Zasilacz.wybierzZasilacz();
+                    System.out.println("Wciśnij dowolny klawisz by kontynuować...");
+                    System.in.read();
                     break;
                 case "4":
                     wyczysc_konsole();
                     Cena += Procesor.wybierzProcesor();
+                    System.out.println("Wciśnij dowolny klawisz by kontynuować...");
+                    System.in.read();
                     break;
                 case "5":
                     wyczysc_konsole();
                     Cena += Karta_Graficzna.wybierzKarteGraficzna();
+                    System.out.println("Wciśnij dowolny klawisz by kontynuować...");
+                    System.in.read();
                     break;
                 case "6":
+                        wyczysc_konsole();
+                    System.out.println("Piotr Kawa - 78228");
+                    System.out.println("Krzysztof Meryk - 78533");
+                    System.out.println("Wciśnij dowolny klawisz by kontynuować...");
+                    System.in.read();
+                    break;
+                case "7":
                     exit = true;
                     break;
                 default:
