@@ -67,6 +67,8 @@ public class Main {
                         wyczysc_konsole();
                     System.out.println("Piotr Kawa - 78228");
                     System.out.println("Krzysztof Meryk - 78533");
+                    System.out.println("Marcin Glapiński - 82159");
+                    System.out.println("Kacper Stoltmann - 78783");
                     System.out.println("Wciśnij dowolny klawisz by kontynuować...");
                     System.in.read();
                     break;
