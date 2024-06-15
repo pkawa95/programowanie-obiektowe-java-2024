@@ -69,6 +69,7 @@ public class Main {
                     System.out.println("Krzysztof Meryk - 78533");
                     System.out.println("Marcin Glapiński - 82159");
                     System.out.println("Kacper Stoltmann - 78783");
+                    System.out.println("Nikodem Ciechelski - 81905");
                     System.out.println("Wciśnij dowolny klawisz by kontynuować...");
                     System.in.read();
                     break;
